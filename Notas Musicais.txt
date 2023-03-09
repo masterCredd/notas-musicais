@@ -1,0 +1,105 @@
+Notas Musicais
+____________________
+
+=>	Notas: Anotações notas musicais 
+
+	Objetivos 
+____________________________
+
+=> 	Ajudar pessoas estudantes de música a estudar teoria Musical
+=>	Ajudar no entendimento de escalas musicais
+=>	Formação de arcordes
+=>	Ajudar no entendimento de campos harmônicos 
+=>	Ajudar com progressões	harmônicas
+________________________________________________________
+
+	Como?	
+
+=>	Eu gostaria de fazer uma aplicação de terminal (CLI) Que perguntada uma 
+		escala ou um campo Harmônico ele exiba uma tabela com um progressões
+		sugeridas randomicamente!
+______________________________________________________________________________
+
+	Notas
+
+=>	Notas:Dó, Ré, Mi, Fá, Sol, Lá, Si
+=>	Notas:Dó,Dó#, Ré, Ré#, Mi, Fá, Fá#, Sol, Sol#, Lá, Lá#, Si
+____________________________________________________________________________
+
+	Cifras
+=>	Notas e acidentes: C, C#, D, D#, E, F, F#, G, G#, A, A#, B
+
+|Nome da Nota|Notas|Sustenidos(#)|Bemóis(b)|
+|------------|-----|-------------|---------|
+|	Dó	 | C	 | 	C#	   | 	Cb	 |	
+|------------|-----|-------------|---------|
+|	Ré	 | D 	 |	D#	   | 	Db	 |
+|------------|-----|-------------|---------|
+|	Mi	 | E	 |	E#	   |  Eb	 |
+|------------|-----|-------------|---------|
+|	Fá	 | F   |	F#	   |  Fb	 |
+|------------|-----|-------------|---------|
+|	Sol	 | G	 |	G#	   |  Gb	 |	
+|------------|-----|-------------|---------|
+|	Lá	 | A	 |	A#	   |	Ab	 |
+|------------|-----|-------------|---------|
+| 	Si	 | B	 |	B#	   | 	Bb	 |
+|------------|-----|-------------|---------|
+
+___________________________________________________________________________________
+	
+	Escalas
+=>	Graus I, II, III, IV, V, VI, VII
+
+	Escala maior
+=>	Intervalos T, T, ST, T, T, T, ST
+
+| I  |II  | III | IV | V  | VI | VII |
+|----|----|-----|----|----|----|-----|
+| T  | T  | ST  | T  | T  | T  | ST  |
+|----|----|-----|----|----|----|-----|
+| C  | D  | E   | F  | G  | A  | B   |
+|----|----|-----|----|----|----|-----|
+| C# | D# | F   |	F# | G# | A# | C   |
+|----|----|-----|----|----|----|-----|
+
+
+___________________________________________________________________________________
+
+	Acordes
+=>	Triade Maior: I, III, V
+=>	Triade Menor: I, IIIb,
+=>	Triade Diminuto: I, IIIb, Vb
+
+
+	Campo Harmônico 
+| I  |ii  | iii | IV | V  | Vi | VII°|
+|----|----|-----|----|----|----|-----|
+| T  | T  | ST  | T  | T  | T  | ST  |
+|----|----|-----|----|----|----|-----|
+| CM | Dm | Em  | FM | G  | Am | B°  |
+|----|----|-----|----|----|----|-----|
+
+___________________________________________________________________
+
+	Progessões Harmônicas
+=>	I, IV, V
+_______________________________________________________________________
+________________________________________________________________________
+
+
+Criando nosso ambiente do pacote python com Poetry, linters, testes e documentação
+
+=>	pipx
+=>	poetry
+=>	git
+=>	gh
+=>	gitignore 
+=>	pytest
+=>    pytest-cov
+=>	blue
+=>	isort
+=>	mkdocstrings
+=>	mkdocs-material
+=>	taskipy
+---------------------------------------------------------------------------------
