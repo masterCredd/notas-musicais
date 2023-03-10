@@ -103,3 +103,7 @@ Criando nosso ambiente do pacote python com Poetry, linters, testes e documentaÃ
 =>	mkdocs-material
 =>	taskipy
 ---------------------------------------------------------------------------------
+comand	
+	blue --check --diff
+	isort --check --diff.
+	
