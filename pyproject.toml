@@ -16,6 +16,7 @@ pytest-cov = "^4.0.0"
 blue="^0.9.1"
 isort = "^5.12.0"
 taskipy = "^1.10.3"
+mypy = "^1.1.1"
 
 
 [tool.poetry.group.doc.dependencies]
@@ -28,11 +29,11 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 pythonpath = "."
-addopts = "--doctest-modulos"
+addopts = "--doctest-modules"
 
 [tool.isort]
-profile= "black"
-line_length= 79
+profile = "black"
+line_length = 79
 
 [tool.taskipy.tasks]
 lint = "blue --check --diff . && isort --check --diff ."
@@ -40,4 +41,3 @@ docs = "mkdocs serve"
 pre_test = "task lint"
 test = "pytest -s -x --cov=notas_musicais -vv"
 post_test = "coverage html"
-
